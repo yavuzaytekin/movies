@@ -12,7 +12,6 @@ protocol MovieListViewModelProtocol {
     var delegate: MovieListViewModelDelegate? { get set }
     func load(with name: String?)
     func selectMovie(at index: Int, with posterData: Data)
-    func searchMovie(with name: String)
     func fetchImage(path: URL, completion: @escaping (Result<Data>) -> Void)
 }
 

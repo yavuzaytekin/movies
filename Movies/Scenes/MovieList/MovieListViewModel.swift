@@ -54,10 +54,6 @@ final class MovieListViewModel: MovieListViewModelProtocol {
         delegate?.navigate(to: .detail(viewModel))
     }
     
-    func searchMovie(with name: String) {
-        //TODO:
-    }
-    
     private func notify(_ output: MovieListViewModelOutput) {
         delegate?.handleViewModelOutput(output)
     }

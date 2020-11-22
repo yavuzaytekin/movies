@@ -22,7 +22,6 @@ open class MovieAPI: MovieAPIProtocol {
     }
     
     func fetchMovies(with name: String?, completion: @escaping (Result<APIResults>) -> Void) {
-        //TODO: batmani degis
         AF.request(AppConstants.API.BaseURL + "s=" + (name ?? "")).responseData { response in
             switch response.result {
             case .success(let value):
