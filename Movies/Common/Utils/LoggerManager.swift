@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Firebase
+import FirebaseAnalytics
 
 class LoggerManager {
     static let shared = LoggerManager()
