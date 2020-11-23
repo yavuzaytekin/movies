@@ -27,15 +27,7 @@ class MovieDetailViewController: UIViewController {
         view.backgroundColor = .white
         setupViews()
         viewModel.load()
-        logger()
-    }
-    
-    func logger() {
-        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
-            AnalyticsParameterItemID: "id-loodos-\(movieTitleLabel.text!)",
-        AnalyticsParameterItemName: movieTitleLabel.text!,
-        AnalyticsParameterContentType: "cont"
-        ])
+        LoggerManager.shared.log(text: movieTitleLabel.text!)
     }
 }
 

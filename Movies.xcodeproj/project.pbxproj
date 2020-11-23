@@ -47,6 +47,7 @@
 		D7C407F325692BC8009394F0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C407F225692BC8009394F0 /* Movie.swift */; };
 		D7C407F525694324009394F0 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C407F425694324009394F0 /* APIResults.swift */; };
 		D7C407F825694F2B009394F0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C407F725694F2B009394F0 /* Result.swift */; };
+		D7F7C149256C21F700AD25D2 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7C148256C21F700AD25D2 /* LoggerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		D7C407F225692BC8009394F0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D7C407F425694324009394F0 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
 		D7C407F725694F2B009394F0 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D7F7C148256C21F700AD25D2 /* LoggerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		D71D614E256846A400A59584 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				D7F7C147256C210300AD25D2 /* Utils */,
 				D7745A8A256A9A1200F20FF4 /* Extensions */,
 				D7C407F625694F1C009394F0 /* Helpers */,
 				D7C407E525691A64009394F0 /* Presentations */,
@@ -301,6 +304,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D7F7C147256C210300AD25D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7C148256C21F700AD25D2 /* LoggerManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -417,6 +428,7 @@
 				D7C407F325692BC8009394F0 /* Movie.swift in Sources */,
 				D7B1056C256838100084C9A1 /* AppDelegate.swift in Sources */,
 				D7745A94256AA49D00F20FF4 /* MovieDetailViewModel.swift in Sources */,
+				D7F7C149256C21F700AD25D2 /* LoggerManager.swift in Sources */,
 				D7745A97256ABED200F20FF4 /* Connectivity.swift in Sources */,
 				D71D6150256846B000A59584 /* AppConstants.swift in Sources */,
 				D7B1056E256838100084C9A1 /* SceneDelegate.swift in Sources */,
